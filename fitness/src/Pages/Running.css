@@ -1,0 +1,33 @@
+.timer{
+position: fixed;
+top:13%;
+height: 50%;
+width: 100%;
+text-align: center;
+
+}
+
+.clock{
+    position: fixed;
+    top: 4%;
+    right: 10%;
+    width: 50%;
+    height: 10%;
+    text-align: right;
+    
+}
+.map{
+    position: fixed;
+    bottom:  1%;
+    left: 1%;
+    
+}
+
+.SpeedTracker{
+    position: fixed;
+   width: 100%;
+   text-align: center;
+   top: 10%;
+   
+    
+}
