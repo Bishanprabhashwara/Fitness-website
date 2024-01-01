@@ -8,20 +8,25 @@ import RunningSpeedTracker from '../component/RunningSpeedTracker/RunningSpeedTr
 const Running = () => {
   return (
     <>
-    <div className='clock'>
+    <div className='row'>
+    <div className='clock col-lg-6 col-md-12'>
         <Clock/>
     </div>
-    <div className='timer'>
+    <div className='timer col-lg-6 col-md-12'>
         <Timer/>
     </div>
-    <div className='SpeedTracker'>
+    <div className='SpeedTracker col-lg-6 col-md-12'>
         <RunningSpeedTracker/>
         
     </div>
-    <div className='map'>
+    <div className='map col-lg-6 col-md-12'>
         <Map/>
-        </div>    
+        </div> 
+           
+           
+    </div>
     </>
+    
   )
 }
 
