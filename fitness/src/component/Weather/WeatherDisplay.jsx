@@ -45,8 +45,8 @@ const WeatherDisplay = () => {
   }, [apiKey]);
 
   return (
-    <div>
-      <h1>Cheak before you Run</h1>
+    <div className='weatherdisplay'>
+      <h1>Check before you Run</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
