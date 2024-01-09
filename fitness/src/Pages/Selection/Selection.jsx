@@ -44,6 +44,7 @@ const toggleStyle = () => {
                 <div className="col mb-3 col-12 text-center">
                     <h2> &#160;&#160;&#160;Select the schedule you like the most</h2>
                     <br />
+                    <div className='border'></div>
                     <div
                         className="btn-group "
                         role="group"
