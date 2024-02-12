@@ -1,0 +1,10 @@
+.weatherdisplay{
+    background-color: #1494fc ;
+    text-align: center;
+}
+.weatherimg{
+    float: right;
+}
+.weatherinfo{
+    float: left;
+}
